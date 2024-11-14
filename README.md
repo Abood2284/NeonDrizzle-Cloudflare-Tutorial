@@ -60,3 +60,27 @@ pnpm run dev
 Make sure to add your own Neon DB URL Inside `.dev.vars` and `.env`
 
 `DATABASE_URL='YOUR_URL'`
+
+
+### Deploy 
+
+To Deploy your `linkp-worker` to your cloudflare:
+
+
+```sh
+cd linkp-worker
+```
+```sh
+pnpm run deploy
+```
+
+To Deploy your `linkp-website` to your cloudflare Pages:
+
+```sh
+cd linkp-website
+```
+```sh
+pnpm run deploy
+```
+
+Enjoy 🫰
